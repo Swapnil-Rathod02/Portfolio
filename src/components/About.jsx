@@ -9,7 +9,7 @@ import { FaPython } from "react-icons/fa";
 
 function About() {
   return (
-    <div className=" text-white/90 h-screen">
+    <div className="h-screen w-full text-white/90">
       <div className="relative top-24 p-2 sm:flex gap-1">
         <div>
           <img
@@ -18,10 +18,10 @@ function About() {
             alt=""
           />
         </div>
-        <div id="skillcontainer" className="p-3">
+        <div id="skillcontainer" className="p-3 sm:shrink-0 sm:w-2/3 w-full">
           <div id="skillset">
             <h1 className="text-3xl font-bold  ml-3 blocks">Frontend</h1>
-            <p className="ml-3 blocks">Frontend Skillset</p>
+            <p className="ml-3 blocks">skilled in</p>
             <div
               id="skills"
               className="  grid grid-cols-1 gap-6 sm:grid-cols-2 p-3 text-white"
@@ -78,7 +78,7 @@ function About() {
           </div>
           <div id="skillset">
             <h1 className="text-3xl font-bold  ml-3 blocks">Backend</h1>
-            <p className="blocks ml-3">Gained skills on Backend</p>
+            <p className="blocks ml-3">Skilled in</p>
             <div
               id="skills"
               className="grid grid-cols-1 gap-6 sm:grid-cols-2 p-3 text-white"
@@ -121,7 +121,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div id="skillset">
+          <div id="skillset" className="shrink-0 ">
             <h1 className="text-3xl font-bold  ml-3 blocks">
               Database Technologies and Tools{" "}
             </h1>
@@ -163,21 +163,3 @@ function About() {
 }
 
 export default About;
-
-{
-  /* <h1 className="text-center  m-auto max-w-full text-3xl ">
-Technologies I Learnt
-</h1>
-<div>
-<h1>Web Devlopment</h1>
-<div
-  id="skill_section"
-  className="mt-4 grid columns-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-3"
->
-  <SkillCard tech={"Web Devlopment"} src={"/web2.png"} />
-  <SkillCard tech={"ReactJs"} src={"/reacticon.png"} />
-  <SkillCard tech={"Web Devlopment"} src={"/icon1.png"} />
-  <SkillCard tech={"Web Devlopment"} src={"/working.png"} />
-</div>
-</div> */
-}

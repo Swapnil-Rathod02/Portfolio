@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 function Footer() {
   return (
-    <footer className="bg-black/75 text-white sm:flex p-3 bottom-0 fixed hidden lg:relative w-full justify-evenly z-50 md:z-50 lg:z-50">
+    <footer className="bg-black/75 text-white sm:flex p-3 bottom-0 fixed lg:relative w-full justify-evenly hidden ">
       <div className="flex p-2 text-center gap-2">
         <IoHome className="size-5" /> <p>Pune,Maharashtra</p>
       </div>
