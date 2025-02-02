@@ -13,7 +13,6 @@ export default function Contact() {
     event.preventDefault();
 
     const formData = new FormData(event.target);
-    console.log(import.meta.env.VITE_EMAIL_KEY);
     formData.append("access_key", import.meta.env.VITE_EMAIL_KEY);
 
     const object = Object.fromEntries(formData);
