@@ -35,13 +35,13 @@ export default function Contact() {
 
   return (
     <>
-      <div className=" bg-gray-900 text-gray-100 py-12 px-4 sm:px-6 lg:px-8 blocks ">
+      <div className=" bg-gray-900 text-gray-100 py-12 px-2 sm:px-6 lg:px-8 blocks h-screen">
         <div className="max-w-2xl mx-auto p-1">
           <h1 className="text-3xl font-bold text-center mb-3 mt-8 blocks">
             Contact Me
           </h1>
 
-          <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden mb-4 p-5 blocks">
+          <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-3 mb-1 lg:mb-4 lg:p-5 blocks ">
             <div className="flex items-center mb-3">
               <div>
                 <h2 className="text-2xl font-semibold">Swapnil Rathod</h2>

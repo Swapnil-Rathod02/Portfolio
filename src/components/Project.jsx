@@ -31,7 +31,7 @@ function Project() {
         <p className="text-blue-400 font-medium mb-6">
           the projects i worked on
         </p>
-        <div className="w-full grid grid-cols-4 p-2">
+        <div className="w-full grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-4 p-2">
           {projects.map((project, index) => (
             <Cards
               key={index}

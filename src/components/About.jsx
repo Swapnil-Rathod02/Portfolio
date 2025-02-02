@@ -9,7 +9,7 @@ import { FaPython } from "react-icons/fa";
 
 function About() {
   return (
-    <div className="h-screen text-white/90">
+    <div className=" text-white/90">
       <div className="relative top-24 p-2 sm:flex gap-1">
         <div>
           <img
@@ -21,10 +21,7 @@ function About() {
         <div id="skillcontainer" className="p-3">
           <div id="skillset">
             <h1 className="text-3xl font-bold  ml-3 blocks">Frontend</h1>
-            <p className="ml-3 blocks">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              laudantium nisi ipsam eligendi quam eveniet illo, cupiditate ab.
-            </p>
+            <p className="ml-3 blocks">Frontend Skillset</p>
             <div
               id="skills"
               className="  grid grid-cols-1 gap-6 sm:grid-cols-2 p-3 text-white"
@@ -81,10 +78,7 @@ function About() {
           </div>
           <div id="skillset">
             <h1 className="text-3xl font-bold  ml-3 blocks">Backend</h1>
-            <p className="blocks ml-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              laudantium nisi ipsam eligendi quam eveniet illo, cupiditate ab.
-            </p>
+            <p className="blocks ml-3">Gained skills on Backend</p>
             <div
               id="skills"
               className="grid grid-cols-1 gap-6 sm:grid-cols-2 p-3 text-white"
@@ -131,10 +125,7 @@ function About() {
             <h1 className="text-3xl font-bold  ml-3 blocks">
               Database Technologies and Tools{" "}
             </h1>
-            <p className="blocks ml-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              laudantium nisi ipsam eligendi quam eveniet illo, cupiditate ab.
-            </p>
+
             <div
               id="skills"
               className="grid grid-cols-1 gap-6 sm:grid-cols-2 p-3 text-white"
