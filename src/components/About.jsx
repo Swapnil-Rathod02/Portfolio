@@ -21,7 +21,7 @@ function About() {
         <div id="skillcontainer" className="p-3 sm:shrink-0 sm:w-2/3 w-full">
           <div id="skillset">
             <h1 className="text-3xl font-bold  ml-3 blocks">Frontend</h1>
-            <p className="ml-3 blocks">skilled in</p>
+
             <div
               id="skills"
               className="  grid grid-cols-1 gap-6 sm:grid-cols-2 p-3 text-white"
@@ -78,7 +78,6 @@ function About() {
           </div>
           <div id="skillset">
             <h1 className="text-3xl font-bold  ml-3 blocks">Backend</h1>
-            <p className="blocks ml-3">Skilled in</p>
             <div
               id="skills"
               className="grid grid-cols-1 gap-6 sm:grid-cols-2 p-3 text-white"
