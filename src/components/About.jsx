@@ -9,7 +9,7 @@ import { FaPython } from "react-icons/fa";
 
 function About() {
   return (
-    <div className=" text-white/90">
+    <div className=" text-white/90 h-screen">
       <div className="relative top-24 p-2 sm:flex gap-1">
         <div>
           <img
